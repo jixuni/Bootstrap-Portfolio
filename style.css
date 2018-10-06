@@ -1,9 +1,10 @@
 body {
   background-image: url("assets/images/gravel.png");
+
 }
 .nav-container{
   background-color:#ffffff;
-  
+
 }
 footer {
   bottom: 0;
@@ -11,6 +12,8 @@ footer {
   width: 100%;
   background-color: #777777;
   margin: auto ;
+  border-top: 5px solid;
+  border-color: #4aaaa5;
 }
 
 .container {
@@ -23,7 +26,7 @@ footer {
   color: #777777;
 }
 
-hr { 
+hr {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -31,18 +34,36 @@ hr {
   border-style: inset;
   border-width: 1px;
   width: 100%;
-} 
+}
 .top_hr {
   display: block;
   border-style: solid;
   width: 100%;
   color: #777777;
   margin-top: 0;
-  
+
 }
 
 .top_name {
   background-color: #4aaaa5;
   width: 100px;
+  text-align: center;
+}
+
+h2 {
+  color: #4aaaa5;
+}
+
+.image_text1 , .image_text2 , .image_text3 , .image_text4 , .image_text5 {
+  position: relative;
+  float: left;
+}
+h5 {
+  position: absolute;
+  background-color: #4aaaa5;
+  height: 35px;
+  font: 20px;
+  width: 200px;
+  margin-top: 60%;
   text-align: center;
 }
